@@ -1,0 +1,62 @@
+/*  header  */
+#header{position:relative;z-index:9999}
+
+
+#top1 {	width:100%;
+	height:123px;
+	margin:0 auto;
+	text-align:center;
+	background:#000;}
+	
+.top11
+{
+margin:0 auto;
+text-align:center;
+width:100%;
+height:16px;
+background:#4b5c66;
+}
+
+#top2{width:100%;height:107px;line-height:110px;margin:0 auto;background:#fefefe;position:relative;}
+#top2 ul{float:right;width:830px;height:110px;line-height:110px;margin:0 auto;}
+#top2 li.menus1{float:left;position:relative;width:115px;height:110px;line-height:110px;text-align:center;font-family: "微软雅黑","Microsoft YaHei", SimHei, sans-serif; margin-right:3px;}
+#top2 li.menus1 a{color:#5a5a5a;font-size:14px;display:block;width:100%;text-align:center;font-weight:bold;}
+.okoks, #top2 li.menus1 a.okoks{color:#fff;background:#4b5c66;}
+
+.toptime{position:absolute;width:175px;height:30px;top:35px;color:#000;}
+
+#top2 .menus2{position:absolute;top:95px;left:0px;width:115px;z-index:99999;display:none;background:#000;height:auto;overflow:hidden;}
+#top2 .menus2 li{height:33px;background:url(../images/menu2bg.jpg) left top no-repeat;}
+#top2 .menus2 li a{height:33px;line-height:33px;font-size:12px; color:#fff;}
+#top2 .menus2 li:hover{background:#e68220;}
+
+.top21{width:1100px;height:100%;margin:0 auto;}
+.top2Logo{float:left;height:73px;line-height:73px;text-align:center; margin-top:18px;}
+.top2Logo img{width:165px;height:60px;}
+
+.top_shadow{position:absolute; width:100%; height:8px; background:url(../images/top_shadow.png) repeat-x; top:110px; z-index:999;}
+.bannerbtbg {
+    width: 100%;
+    height: 120px;
+    background: url(../images/aboutbg.jpg) center;
+}
+
+
+#header .searchBg{background:url(../images/searchBg.gif);width:189px;height:22px;position:absolute;right:0;bottom:30px;}
+input#keyword{display:block;float:left;width:155px;height:22px;background:none;border:none;outline:none;margin-left:5px;color:#b6b6b6;}
+input#search{display:block;float:left;width:29px;height:22px;background:none;border:none;outline:none;cursor:pointer;}
+
+
+#new_list{padding:20px;}
+#new_list  a{color:#535353;}
+#new_list  span{color:#aaa;}
+#new_list  li{height:30px;}
+
+
+#news_title{text-align:center;border:1px solid #ccc;border-width:1px 0;padding:10px;}
+#news_title p{text-align:center;}
+.content{line-height:200%;width:100%;overflow:hidden;}
+
+.logined{float:right;}
+.logined span{color:#f00;}
+.logined a{margin-left:50px;}

@@ -1,0 +1,27 @@
+<!--TreeMenu2 Start:-->
+  <script type="text/javascript" src="dtree.js"></script>
+  <link rel="stylesheet" type="text/css"  href="dtree.css" />
+<div class="dtree" bgcolor="#cccccc">
+	<p>
+		<a href="javascript: d.openAll();">open all</a> |
+		<a href="javascript: d.closeAll();">close all</a>
+	</p>
+	<script type="text/javascript">
+		<!--
+
+		var d = new dTree('d'); 
+		// Node(id, pid, name, url, title, target, icon, iconOpen, open) 
+	     d.add(0,-1,'top','#','Pictures I\'ve taken over the years','_blank','','/skins/default/img/tree/imgfolder.gif');
+		   d.add(1,0,'日常办公'); 
+		   d.add(2,0,'系统管理');
+		   d.add(3,0,'权限管理');
+		   
+		   d.add(11,1,'通讯录管理','#','职务管理','_blank');
+       	   d.add(72,7,'部门管理','#','部门管理','mainFrame');
+		document.write(d);
+	 
+
+		//-->
+	</script>
+
+</div>

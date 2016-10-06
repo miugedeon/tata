@@ -1,0 +1,48 @@
+RewriteEngine on
+
+RewriteRule ^index.html$ index.php
+RewriteRule ^main.html$ main.php
+
+RewriteRule ^way.html$ common.php?p=way
+RewriteRule ^way-f.html$ common.php?p=way&ty=fhzc
+RewriteRule ^way-w.html$ common.php?p=way&ty=wllx
+RewriteRule ^way-x-([0-9]*).html$ common.php?p=way&ty=fhzc_x&id=$1
+RewriteRule ^way-y-([0-9]*).html$ common.php?p=way&ty=fhzc_y&id=$1
+RewriteRule ^way-([0-9]*)-([0-9]*).html$ common.php?p=way&typeID=$1&areaID=$2
+
+RewriteRule ^reg.html$ common.php?p=reg
+RewriteRule ^reg-([0-9]*).html$ common.php?p=reg&typeID=$1
+RewriteRule ^reg-([0-9]*)-([0-9]*).html$ common.php?p=reg&typeID=$1&areaID=$2
+
+RewriteRule ^join.html$ common.php?p=join
+RewriteRule ^join-([0-9]*).html$ common.php?p=join&typeID=$1
+RewriteRule ^join-([0-9]*)-([0-9]*).html$ common.php?p=join&typeID=$1&areaID=$2
+
+RewriteRule ^job.html$ common.php?p=job
+RewriteRule ^job-([0-9]*).html$ common.php?p=job&typeID=$1
+RewriteRule ^job-([0-9]*)-([0-9]*).html$ common.php?p=job&typeID=$1&areaID=$2
+
+RewriteRule ^news.html$ common.php?p=news
+RewriteRule ^news-([0-9]*).html$ common.php?p=news&typeID=$1
+RewriteRule ^news-([0-9]*)-([0-9]*).html$ common.php?p=news&typeID=$1&page=$2
+RewriteRule ^news_show-([0-9]*)-([0-9]*).html$ common.php?p=news&typeID=$1&p_id=$2
+
+RewriteRule ^product.html$ common.php?p=product
+RewriteRule ^product-([0-9]*).html$ common.php?p=product&typeID=$1
+RewriteRule ^product-([0-9]*)-([0-9]*).html$ common.php?p=product&typeID=$1&twoID=$2
+RewriteRule ^productshow-([0-9]*)-([0-9]*)-([0-9]*).html common.php?p=product&a=show&typeID=$1&twoID=$2&productID=$3
+
+RewriteRule ^tech.html$ common.php?p=tech
+RewriteRule ^tech-([0-9]*).html$ common.php?p=tech&typeID=$1
+RewriteRule ^tech-([0-9]*)-([0-9]*).html$ common.php?p=tech&typeID=$1&twoID=$2
+
+RewriteRule ^about.html$ common.php?p=about
+RewriteRule ^about-([0-9]*).html$ common.php?p=about&typeID=$1
+RewriteRule ^about-([0-9]*)-([0-9]*).html$ common.php?p=about&typeID=$1&twoID=$2
+
+RewriteRule ^other.html$ common.php?p=other
+RewriteRule ^other-([0-9]*).html$ common.php?p=other&typeID=$1
+RewriteRule ^other-([0-9]*)-([0-9]*).html$ common.php?p=other&typeID=$1&twoID=$2
+
+RewriteRule ^contact.html$ common.php?p=contact
+RewriteRule ^contact-([0-9]*).html$ common.php?p=contact&typeID=$1

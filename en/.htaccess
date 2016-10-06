@@ -1,0 +1,32 @@
+RewriteEngine on
+
+RewriteRule ^index.html$ index.php
+RewriteRule ^main.html$ main.php
+
+RewriteRule ^case.html$ common.php?p=case
+RewriteRule ^case-([0-9]*).html$ common.php?p=case&typeID=$1
+RewriteRule ^case-([0-9]*)-([0-9]*).html$ common.php?p=case&typeID=$1&areaID=$2
+
+RewriteRule ^news.html$ common.php?p=news
+RewriteRule ^news-([0-9]*).html$ common.php?p=news&typeID=$1
+RewriteRule ^news-([0-9]*)-([0-9]*).html$ common.php?p=news&typeID=$1&page=$2
+RewriteRule ^news_show-([0-9]*)-([0-9]*).html$ common.php?p=news&typeID=$1&p_id=$2
+
+RewriteRule ^product.html$ common.php?p=product
+RewriteRule ^product-([0-9]*).html$ common.php?p=product&typeID=$1
+RewriteRule ^product-([0-9]*)-([0-9]*).html$ common.php?p=product&typeID=$1&twoID=$2
+RewriteRule ^productshow-([0-9]*)-([0-9]*)-([0-9]*).html common.php?p=product&a=show&typeID=$1&twoID=$2&productID=$3
+
+RewriteRule ^tech.html$ common.php?p=tech
+RewriteRule ^tech-([0-9]*).html$ common.php?p=tech&typeID=$1
+
+RewriteRule ^about.html$ common.php?p=about
+RewriteRule ^about-([0-9]*).html$ common.php?p=about&typeID=$1
+RewriteRule ^about-([0-9]*)-([0-9]*).html$ common.php?p=about&typeID=$1&twoID=$2
+
+RewriteRule ^contact.html$ common.php?p=contact
+RewriteRule ^contact-([0-9]*).html$ common.php?p=contact&typeID=$1
+
+RewriteRule ^other.html$ common.php?p=other
+RewriteRule ^other-([0-9]*).html$ common.php?p=other&typeID=$1
+RewriteRule ^other-([0-9]*)-([0-9]*).html$ common.php?p=other&typeID=$1&twoID=$2

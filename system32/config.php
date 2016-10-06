@@ -1,0 +1,9 @@
+<?php
+	session_start();
+	include_once("../common/str.php");
+	if(isset($_SESSION["admin"])=="")
+	{
+		alertUrl("·Ç·¨²Ù×÷","login.html");
+	}
+	include_once("../common/conn.php");
+?>

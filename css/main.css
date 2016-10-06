@@ -1,0 +1,6 @@
+*{margin:0;padding:0;}
+.back_left {
+	background-image: url(../images/main.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}

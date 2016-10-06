@@ -1,0 +1,8 @@
+﻿/*jqzoom-------------------------------------------------------------*/
+.jqzoom{float:left;position:relative;padding:0px;border-left:1px solid #e3e3e3;border-top:1px solid #e3e3e3;border-right:2px solid #ccc;border-bottom:2px solid #ccc;}
+.jqzoom img{float:left;}
+.zoomdiv{z-index:100;position:absolute;top:20px !important;left:385px !important;width:10px;height:10px;background:#fff;display:none;text-align:center;overflow: hidden;border-left:1px solid #e3e3e3;border-top:1px solid #e3e3e3;border-right:2px solid #ccc;border-bottom:2px solid #ccc;}
+.bigimg{width:800px;height:640px;}
+.jqZoomPup{z-index:10;visibility:hidden;position:absolute;top:0px;left:0px;width:50px;height:50px;border:1px solid #aaa;background:#1569c7 50% top no-repeat;opacity:0.5;-moz-opacity:0.5;-khtml-opacity:0.5;filter:alpha(Opacity=50);cursor:move;}
+
+

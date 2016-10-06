@@ -1,0 +1,8 @@
+.sub-promotion{overflow:hidden;width:120px;height:620px;position:relative;padding:0;}
+.sub-promotion .sp-hd{width:100%;height:25px;}
+.sub-promotion .sp-hd a{display:block;position:absolute;width:13px;height:8px;background:url(../images/rpbtn.jpg) no-repeat;}
+.sub-promotion .sp-hd .sp-prev{left:53.5px;top:0px;background-position:0px 0px;}
+.sub-promotion .sp-hd .sp-next{right:53.5px;bottom:30px;background-position:-13px 0px;}
+.sub-promotion .sub-promotion-content{width:100%;height:570px;overflow:hidden;}
+.sub-promotion .con-of-3{display:block;width:100%;height:570px;overflow:hidden;}
+.sub-promotion .con-of-3 li{width:120px;height:190px;position:relative;overflow:hidden;z-index:22;font-size:12px;line-height:150%; word-wrap:break-word;}

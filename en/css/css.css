@@ -1,0 +1,58 @@
+
+.image{position:relative}
+
+#featured {
+	 WIDTH: 700px; POSITION: relative; HEIGHT: 420px;overflow:hidden;margin:0 auto;text-align:center;padding:0 10px1
+}
+.xiansam{font-size:18px;margin-bottom:20px;clear:both;font-size:14px;}
+
+#featured .ui-els-hide {
+	DISPLAY: none
+}
+
+#thumbs {
+	WIDTH: 700px; LIST-STYLE-TYPE: none; HEIGHT: 30px;position:relative; background:#E6E6E6; margin-top:30px;padding:10px 0;
+}
+
+* HTML #thumbs {
+	HEIGHT: 100%
+}
+#thumbs LI {
+	DISPLAY: inline; FLOAT: left; WIDTH: 52px; MARGIN-RIGHT: 4px; HEIGHT: 40px;position:relative;right:50%;
+}
+#thumbs UL {
+	MARGIN-TOP: 100px;position:relative;left:50%;margin:0 auto;float:left;
+}
+#thumbs LI.last_img {
+	MARGIN-RIGHT: 4px;
+}
+#thumbs LI.first {
+	MARGIN: 0px 10px 0pt 15px; WIDTH: 20px; CURSOR: pointer; HEIGHT: 13px
+}
+#thumbs LI.last {
+	MARGIN: 0px 12px 0pt 8px; WIDTH: 20px; CURSOR: pointer; HEIGHT: 13px
+}
+#thumbs LI A {
+	BORDER-RIGHT: #9c9c9c 2px solid; BORDER-TOP: #9c9c9c 2px solid; DISPLAY: block; FONT-SIZE: 0px; BORDER-LEFT: #9c9c9c 2px solid; WIDTH: 48px; BORDER-BOTTOM: #9c9c9c 2px solid
+}
+#thumbs LI A:hover {
+	BORDER-RIGHT: #99cc33 2px solid; BORDER-TOP: #99cc33 2px solid; BORDER-LEFT: #99cc33 2px solid; BORDER-BOTTOM: #99cc33 2px solid
+}
+#thumbs LI A.current {
+	BORDER: #5FC243 2px solid;
+}
+#thumbs LI.first IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#thumbs LI.last IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#topstory {
+	BACKGROUND: #fff; FLOAT: left; WIDTH: 700px; HEIGHT: 400px
+}
+#highlight {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 470px; PADDING-TOP: 5px;margin:0 auto;
+}
+
+
+
